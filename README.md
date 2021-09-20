@@ -36,8 +36,8 @@ docker compose down
 
 ### Pull image from respository
 
-* From [DockerHub](https://hub.docker.com/r/uwessds/ess314-2021-image/tags): `docker pull uwhackweek/template:latest`
-* From [Quay](https://quay.io/repository/UW-geophysics-edu/ess314-2021-image?tab=tags): `docker pull quay.io/uwhackweek/template:latest` 
+* From [DockerHub](https://hub.docker.com/r/uwessds/ess314-2021-image/tags): `docker pull uwessds/ess314-2021-image:latest`
+* From [Quay](https://quay.io/repository/UW-geophysics-edu/ess314-2021-image?tab=tags): `docker pull quay.io/uwessds/ess314-2021-image:latest` 
 
 ### Point to a specific tagged image in JupyterHub config
 
