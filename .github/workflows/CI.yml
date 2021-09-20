@@ -9,7 +9,7 @@ on:
       - '.gitignore'
 
 env:
-  DOCKER_IMAGE: uwhackweek/template
+  DOCKER_IMAGE: uwessds/ess314-2021-image
 
 jobs:
   build-image-and-push:
