@@ -2,7 +2,7 @@
 This repository builds a [JupyterHub](https://jupyter.org/hub) environment with Repo2Docker [GitHub Actions CI](https://github.com/jupyterhub/repo2docker-action)
 
 [![Action Status](https://github.com/UW-geophysics-edu/ess314-2021-image/workflows/CI/badge.svg)](https://github.com/UW-geophysics-edu/ess314-2021-image/actions)
-[![Docker Pulls](https://img.shields.io/docker/pulls/uwessds/ess314-2021-imagee)](https://hub.docker.com/r/uwessds/ess314-2021-image/tags)
+[![Docker Pulls](https://img.shields.io/docker/pulls/uwessds/ess314-2021-image)](https://hub.docker.com/r/uwessds/ess314-2021-image/tags)
 [![BinderHub](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/uwessds/ess314-2021-image/main?urlpath=git-pull?repo=https://github.com/UW-geophysics-edu/ess314-2021-image%26amp%3Bbranch=main%26amp%3Burlpath=lab)
 
 ### How to use this template repository
