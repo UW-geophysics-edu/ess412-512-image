@@ -1,9 +1,9 @@
 # docker-template
 This repository builds a [JupyterHub](https://jupyter.org/hub) environment with Repo2Docker [GitHub Actions CI](https://github.com/jupyterhub/repo2docker-action)
 
-[![Action Status](https://github.com/UW-geophysics-edu/ess314-2021-image/workflows/CI/badge.svg)](https://github.com/UW-geophysics-edu/ess314-2021-image/actions)
-[![Docker Pulls](https://img.shields.io/docker/pulls/uwessds/ess314-2021-image)](https://hub.docker.com/r/uwessds/ess314-2021-image/tags)
-[![BinderHub](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UW-geophysics-edu/ess314-2021-image/main?urlpath=git-pull?repo=https://github.com/uwessds/ess314-2021-image%26amp%3Bbranch=main%26amp%3Burlpath=lab)
+[![Action Status](https://github.com/UW-geophysics-edu/ess412-512-image/workflows/CI/badge.svg)](https://github.com/UW-geophysics-edu/ess412-512-image/actions)
+[![Docker Pulls](https://img.shields.io/docker/pulls/uwessds/ess412-512-image)](https://hub.docker.com/r/uwessds/ess412-512-image/tags)
+[![BinderHub](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UW-geophysics-edu/ess412-512-image/main?urlpath=git-pull?repo=https://github.com/uwessds/ess412-512-image%26amp%3Bbranch=main%26amp%3Burlpath=lab)
 
 ### How to use this template repository
 
@@ -15,7 +15,7 @@ This repository builds a [JupyterHub](https://jupyter.org/hub) environment with 
     * Pull Requests trigger image building without pushing to DockerHub
 
 ```bash
-git clone https://github.com/UW-geophysics-edu/ess314-2021-image
+git clone https://github.com/UW-geophysics-edu/ess412-512-image
 cd docker-template
 git checkout dev
 # make sure dev branch is up-to-date with master
@@ -36,8 +36,8 @@ docker compose down
 
 ### Pull image from respository
 
-* From [DockerHub](https://hub.docker.com/r/uwessds/ess314-2021-image/tags): `docker pull uwessds/ess314-2021-image:latest`
-<!-- * From [Quay](https://quay.io/repository/UW-geophysics-edu/ess314-2021-image?tab=tags): `docker pull quay.io/uwessds/ess314-2021-image:latest`  -->
+* From [DockerHub](https://hub.docker.com/r/uwessds/ess412-512-image/tags): `docker pull uwessds/ess412-512-image:latest`
+<!-- * From [Quay](https://quay.io/repository/UW-geophysics-edu/ess412-512-image?tab=tags): `docker pull quay.io/uwessds/ess412-512-image:latest`  -->
 
 ### Point to a specific tagged image in JupyterHub config
 
