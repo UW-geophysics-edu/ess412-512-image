@@ -9,7 +9,7 @@ on:
       - '.gitignore'
 
 env:
-  DOCKER_IMAGE: uwessds/ess314-2021-image
+  DOCKER_IMAGE: uwessds/ess412-512-image
 
 jobs:
   build-image-without-pushing:
