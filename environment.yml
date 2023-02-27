@@ -1,4 +1,4 @@
-name: ess412
+name: ess412-512
 channels:
   - conda-forge
 dependencies:
